@@ -2,8 +2,6 @@
 
 <p align="center">
     <a href="https://loft.sh" target="_blank"><img src="/image/github_organization_page.png" alt="Loft Labs Banner"></a>
-    <br />
-    <br />
 </p>
 
 _Loft is building the solution for the cloud and cloud native that help Companies Scale Access To Kubernetes From 10 To 10,000 Engineers._
