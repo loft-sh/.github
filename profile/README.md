@@ -1,10 +1,10 @@
-# 👋 Welcome to Loft Labs!
+# 👋 Welcome to LoftLabs!
 
 <p align="center">
-    <a href="https://loft.sh" target="_blank"><img src="/profile/image/github_organization_page.png" alt="Loft Labs Banner"></a>
+    <a href="https://loft.sh" target="_blank"><img src="/profile/image/github_organization_page.png" alt="LoftLabs Banner"></a>
 </p>
 
-_Loft is building the solution for the cloud and cloud native that help Companies Scale Access To Kubernetes From 10 To 10,000 Engineers._
+_LoftLabs is building the solution for the cloud and cloud native that help Companies Scale Access To Kubernetes From 10 To 10,000 Engineers._
 
 ## 🚀 An interconnected Ecosystem
 
@@ -19,5 +19,5 @@ Building Dev Tooling with the best technology to our open-source community and t
 
 ## Connect With Us 🫂
 - Join our [Slack community](https://slack.loft.sh/) to learn more.
-- Follow us on [Twitter](https://twitter.com/loft_sh) for the latest updates.
+- Follow us on [X](https://X.com/loft_sh) for the latest updates.
 - Learn more on [YouTube](https://www.youtube.com/@vcluster).
