@@ -1,4 +1,4 @@
-# 👋 Welcome to LoftLabs!
+# 👋 Welcome to vCluster Labs!
 
 <p align="center">
     <a href="https://vcluster.com" target="_blank"><img src="/profile/image/github_organization_page.png" alt="vCluster Banner"></a>
