@@ -4,8 +4,6 @@
     <a href="https://vcluster.com" target="_blank"><img src="/profile/image/github_organization_page.png" alt="vCluster Banner"></a>
 </p>
 
-_Tenancy as Code for Kubernetes._
-
 ## 🚀 An interconnected Ecosystem
 
 Building Dev Tooling with the best technology to our open-source community and to our loyal customer base is our mission. Discover the benefits waiting for you with:
