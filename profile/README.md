@@ -17,5 +17,5 @@ Building Dev Tooling with the best technology to our open-source community and t
 
 ## Connect With Us 🫂
 - Join our [Slack community](https://slack.vcluster.com/) to learn more.
-- Follow us on [X](https://X.com/vcluster) for the latest updates.
+- Follow us on [X](https://X.com/vcluster) or [LinkedIn](https://www.linkedin.com/company/vcluster) or [Blog](https://www.vcluster.com/blog)[for the latest updates.
 - Learn more on [YouTube](https://www.youtube.com/@vcluster).
