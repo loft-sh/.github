@@ -1,22 +1,94 @@
-# 👋 Welcome to vCluster Labs!
+# 👋 Welcome to vCluster Labs
 
 <p align="center">
-    <a href="https://vcluster.com" target="_blank"><img src="/profile/image/github_organization_page.png" alt="vCluster Banner"></a>
+    <a href="https://vcluster.com" target="_blank"><img src="/profile/image/github_organization_page.png" alt="vCluster Labs"></a>
 </p>
 
-## 🚀 An interconnected Ecosystem
+<p align="center"><strong>Tenant Clusters for Production Kubernetes and AI Infrastructure</strong></p>
+<p align="center"><em>Virtual control planes, real isolation — from a single node to 100K-GPU superclusters.</em></p>
 
-Building Dev Tooling with the best technology to our open-source community and to our loyal customer base is our mission. Discover the benefits waiting for you with:
+<p align="center">
+    <a href="https://www.cncf.io/training/certification/software-conformance/"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/kubernetes/certified-kubernetes/versionless/color/certified-kubernetes-color.svg" alt="Certified Kubernetes — Distribution" height="80"></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/cncf/k8s-ai-conformance/tree/main/v1.35/vcluster-private-nodes"><img src="https://raw.githubusercontent.com/cncf/artwork/main/projects/kubernetes/certified-kubernetes-ai/versionless/color/CNCF_AI_Conformance_Logo-Color-V2.png" alt="Kubernetes AI Conformant" height="80"></a>
+</p>
 
-- [vCluster](https://github.com/loft-sh/vcluster) - Create fully functional virtual Kubernetes clusters - Each vCluster runs inside a namespace of the underlying k8s cluster. It's cheaper than creating separate full-blown clusters and it offers better multi-tenancy and isolation than regular namespaces and 40 million virtual clusters using vCluster are created since 2021.
+<p align="center">
+    <strong>CNCF Certified Kubernetes — Distribution</strong> · <strong>Kubernetes AI Conformant</strong> (v1.35)
+</p>
 
-- [DevPod](https://github.com/loft-sh/devpod) - Codespaces but open-source, client-only and unopinionated: Works with any IDE and lets you use any cloud, Kubernetes or just Docker.
+---
 
-- [jsPolicy](https://github.com/loft-sh/jspolicy) - Easier & Faster Kubernetes Policies using JavaScript or TypeScript.
+## 🚀 What we build
 
+vCluster Labs builds the open-source foundation for running production Kubernetes and AI factories on your own hardware. Our flagship project, **[vCluster](https://github.com/loft-sh/vcluster)**, creates **Tenant Clusters** — fully isolated Kubernetes environments with their own API server, CRDs, and RBAC, indistinguishable from a dedicated cluster.
 
-## Connect With Us 🫂
-- Join our [Slack community](https://slack.vcluster.com/) to learn more.
-- Follow us on [LinkedIn](https://www.linkedin.com/company/vcluster) or [X](https://X.com/vcluster) for the latest updates.
-- Book a [consulatation](https://start-chat.com/slack/Loft-Labs/NnQl1M).
-- Learn more on [YouTube](https://www.youtube.com/@vcluster).
+**Built for production. Trusted in production.** **40M+ Tenant Clusters deployed** by teams at Adobe, CoreWeave, NVIDIA, Lintasarta, Atlan, Deloitte, and hundreds of AI clouds, AI factories, and Fortune 500 platform organizations.
+
+> **The public-cloud experience, on your own infrastructure.** Give every team the Kubernetes they need — with strict Tenant Isolation, hardware-aware scheduling, and zero tenant sprawl — whether you run one region or 100K GPUs.
+
+---
+
+## 🌟 Featured projects
+
+| Project | What it does |
+|---------|--------------|
+| **[vCluster](https://github.com/loft-sh/vcluster)** | Tenant Clusters for Kubernetes — Virtual Control Planes with API, data, and (optionally) network isolation. |
+| **[vind](https://github.com/loft-sh/vind)** | vCluster in Docker — like `kind`, but with the full vCluster feature set (UI, sleep/resume, LoadBalancer, image cache). |
+| **[Cluster API Provider vCluster](https://github.com/loft-sh/cluster-api-provider-vcluster)** | Manage vCluster Tenant Clusters with the upstream Cluster API. |
+| **[vCluster SDK](https://github.com/loft-sh/vcluster-sdk)** | Build custom vCluster syncers and extend Tenant Cluster behavior. |
+| **[vCluster Docs](https://github.com/loft-sh/vcluster-docs)** | Documentation for vCluster, the Platform, and the surrounding ecosystem. |
+| **[Loft Platform](https://github.com/loft-sh/loft)** | The control plane for self-service Kubernetes — manage Tenant Clusters, namespaces, and access at scale. |
+| **[DevPod](https://github.com/loft-sh/devpod)** | Codespaces, but open-source and unopinionated — works with any IDE and any cloud, Kubernetes, or Docker. |
+| **[jsPolicy](https://github.com/loft-sh/jspolicy)** | Easier and faster Kubernetes policies using JavaScript or TypeScript. |
+
+---
+
+## 🏗️ The vCluster Platform stack
+
+vCluster is the foundation of a broader platform for running production Kubernetes and AI infrastructure on your own hardware — from a single rack to 100K-GPU supercomputers.
+
+| Layer | Project | Purpose |
+|-------|---------|---------|
+| **Tenant Clusters** | **[vCluster](https://www.vcluster.com)** | Virtual Control Planes with API, data, and (optionally) network isolation |
+| **Tenant Isolation** | **[vNode](https://www.vnode.com/)** | Runtime-level kernel-enforced boundaries (seccomp, cgroups, namespaces, AppArmor) — no VM overhead |
+| **GPU Infrastructure** | **[vMetal](https://www.vmetal.ai/)** | Zero-touch bare-metal provisioning for GPU fleets |
+| **Network Isolation** | **[Netris](https://www.vcluster.com/solutions/netris-kubernetes-network-automation)** *(integration)* | Hardware-enforced isolation via programmatic VLANs, VRFs, and ACLs |
+
+Together these deliver the four layers of an AI factory: **Certified Stacks → Tenant Isolation → Tenant Clusters → GPU Infrastructure Operations** — the same pattern used to run production AI on hundreds of AI clouds and Fortune 500 on-prem platforms.
+
+---
+
+## 🎯 Use cases
+
+- **AI Factory** — Run AI on-prem where your data and GPUs live
+- **AI Cloud Providers** — A hyperscaler-like Kubernetes experience for GPU customers
+- **Internal GPU Platform** — Maximize GPU utilization without sacrificing isolation
+- **Bare Metal Kubernetes** — Production Kubernetes on bare metal, no VMs
+- **Software Vendors** — Ship Kubernetes-native products with per-customer Tenant Clusters
+- **Cost Savings** — Consolidate clusters, sleep idle workloads, cut Kubernetes spend
+
+👉 **[See all solutions →](https://www.vcluster.com/solutions)**
+
+---
+
+## 🆓 Try vCluster Free
+
+Real usage, not a gated demo. Unlimited Tenant Clusters up to 64 CPUs / 32 GPUs, Private Nodes, Auto Nodes, Standalone, and the Platform UI — for free.
+
+**[Get Started Free →](https://www.vcluster.com/free)** • **[Quickstart](https://www.vcluster.com/docs/get-started/)** • **[Try in your browser →](https://killercoda.com/vcluster)**
+
+---
+
+## 🤝 Connect with us
+
+- 💬 Join our [Slack community](https://slack.loft.sh/) — 5K+ engineers
+- 💼 Follow on [LinkedIn](https://www.linkedin.com/company/vcluster) — 28K+
+- 🐦 Follow on [X](https://x.com/vcluster) — 3.7K+
+- 📺 Watch on [YouTube](https://www.youtube.com/@vcluster)
+- 📝 Read the [Blog](https://loft.sh/blog)
+- 📅 Book a [consultation](https://start-chat.com/slack/Loft-Labs/NnQl1M)
+
+---
+
+<p align="center">⭐ <strong>Star our projects</strong> if they help you build better Kubernetes infrastructure!</p>
