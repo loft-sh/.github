@@ -38,6 +38,7 @@ vCluster Labs builds the open-source foundation for running production Kubernete
 | **[Cluster API Provider vCluster](https://github.com/loft-sh/cluster-api-provider-vcluster)** | Manage vCluster Tenant Clusters with the upstream Cluster API. |
 | **[vCluster SDK](https://github.com/loft-sh/vcluster-sdk)** | Build custom vCluster syncers and extend Tenant Cluster behavior. |
 | **[vCluster Docs](https://github.com/loft-sh/vcluster-docs)** | Documentation for vCluster, the Platform, and the surrounding ecosystem. |
+| **[Certified Stacks](https://github.com/loft-sh/certified-stacks)** | Curated, validated Kubernetes stacks (CNI, CSI, GPU, observability) that ship as the foundation of an AI factory. |
 | **[Loft Platform](https://github.com/loft-sh/loft)** | The control plane for self-service Kubernetes — manage Tenant Clusters, namespaces, and access at scale. |
 | **[DevPod](https://github.com/loft-sh/devpod)** | Codespaces, but open-source and unopinionated — works with any IDE and any cloud, Kubernetes, or Docker. |
 | **[jsPolicy](https://github.com/loft-sh/jspolicy)** | Easier and faster Kubernetes policies using JavaScript or TypeScript. |
