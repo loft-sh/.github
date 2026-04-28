@@ -14,18 +14,18 @@
 </p>
 
 <p align="center">
-    <strong>CNCF Certified Kubernetes — Distribution</strong> · <strong>Kubernetes AI Conformant</strong> (v1.35)
+    <strong>CNCF Certified Kubernetes — Distribution</strong> · <strong>Kubernetes AI Conformant</strong>
 </p>
 
 ---
 
 ## 🚀 What we build
 
-vCluster Labs builds the open-source foundation for running production Kubernetes and AI factories on your own hardware. Our flagship project, **[vCluster](https://github.com/loft-sh/vcluster)**, creates **Tenant Clusters** — fully isolated Kubernetes environments with their own API server, CRDs, and RBAC, indistinguishable from a dedicated cluster.
+vCluster Labs builds the open-source foundation for running production Kubernetes and AI factories on your own hardware. Our flagship product, **[vCluster](https://github.com/loft-sh/vcluster)**, creates **Tenant Clusters** — fully isolated Kubernetes environments with their own API server, CRDs, and RBAC, indistinguishable from a dedicated cluster.
 
 **Built for production. Trusted in production.** **40M+ Tenant Clusters deployed** by teams at Adobe, CoreWeave, NVIDIA, Lintasarta, Atlan, Deloitte, and hundreds of AI clouds, AI factories, and Fortune 500 platform organizations.
 
-> **The public-cloud experience, on your own infrastructure.** Give every team the Kubernetes they need — with strict Tenant Isolation, hardware-aware scheduling, and zero tenant sprawl — whether you run one region or 100K GPUs.
+> **The public-cloud experience, on your own infrastructure.** Give every team the Kubernetes they need — with strict tenant isolation, hardware-aware scheduling, and zero tenant sprawl — whether you run one region or 100K GPUs.
 
 ---
 
@@ -39,7 +39,7 @@ vCluster Labs builds the open-source foundation for running production Kubernete
 | **[vCluster SDK](https://github.com/loft-sh/vcluster-sdk)** | Build custom vCluster syncers and extend Tenant Cluster behavior. |
 | **[vCluster Docs](https://github.com/loft-sh/vcluster-docs)** | Documentation for vCluster, the Platform, and the surrounding ecosystem. |
 | **[Certified Stacks](https://github.com/loft-sh/certified-stacks)** | Curated, validated Kubernetes stacks (CNI, CSI, GPU, observability) that ship as the foundation of an AI factory. |
-| **[Loft Platform](https://github.com/loft-sh/loft)** | The control plane for self-service Kubernetes — manage Tenant Clusters, namespaces, and access at scale. |
+| **[vCluster Platform](https://github.com/loft-sh/loft)** | The control plane for self-service Kubernetes — manage Tenant Clusters, namespaces, and access at scale. |
 | **[DevPod](https://github.com/loft-sh/devpod)** | Codespaces, but open-source and unopinionated — works with any IDE and any cloud, Kubernetes, or Docker. |
 | **[jsPolicy](https://github.com/loft-sh/jspolicy)** | Easier and faster Kubernetes policies using JavaScript or TypeScript. |
 
@@ -52,11 +52,11 @@ vCluster is the foundation of a broader platform for running production Kubernet
 | Layer | Project | Purpose |
 |-------|---------|---------|
 | **Tenant Clusters** | **[vCluster](https://www.vcluster.com)** | Virtual Control Planes with API, data, and (optionally) network isolation |
-| **Tenant Isolation** | **[vNode](https://www.vnode.com/)** | Runtime-level kernel-enforced boundaries (seccomp, cgroups, namespaces, AppArmor) — no VM overhead |
+| **Runtime Isolation** | **[vNode](https://www.vnode.com/)** | Kernel-enforced workload sandboxing (seccomp, cgroups, namespaces, AppArmor) — no VM overhead |
 | **GPU Infrastructure** | **[vMetal](https://www.vmetal.ai/)** | Zero-touch bare-metal provisioning for GPU fleets |
 | **Network Isolation** | **[Netris](https://www.vcluster.com/solutions/netris-kubernetes-network-automation)** *(integration)* | Hardware-enforced isolation via programmatic VLANs, VRFs, and ACLs |
 
-Together these deliver the four layers of an AI factory: **Certified Stacks → Tenant Isolation → Tenant Clusters → GPU Infrastructure Operations** — the same pattern used to run production AI on hundreds of AI clouds and Fortune 500 on-prem platforms.
+Together these provide a complete foundation for AI factories — certified Kubernetes stacks, isolated tenant clusters, runtime workload sandboxing, and GPU infrastructure operations — the same pattern used to run production AI on hundreds of AI clouds and Fortune 500 on-prem platforms.
 
 ---
 
@@ -75,7 +75,7 @@ Together these deliver the four layers of an AI factory: **Certified Stacks → 
 
 ## 🆓 Try vCluster Free
 
-Real usage, not a gated demo. Unlimited Tenant Clusters up to 64 CPUs / 32 GPUs, Private Nodes, Auto Nodes, Standalone, and the Platform UI — for free.
+Real usage, not a gated demo. Unlimited Tenant Clusters up to 64 CPUs / 32 GPUs, plus the full vCluster Platform UI — for free.
 
 **[Get Started Free →](https://www.vcluster.com/free)** • **[Quickstart](https://www.vcluster.com/docs/get-started/)** • **[Try in your browser →](https://killercoda.com/vcluster)**
 
