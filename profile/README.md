@@ -1,7 +1,7 @@
 # 👋 Welcome to vCluster Labs
 
 <p align="center">
-    <a href="https://vcluster.com" target="_blank"><img src="/profile/image/github_organization_page.png" alt="vCluster Labs"></a>
+    <a href="https://vcluster.com" target="_blank"><img src="/profile/image/GitHub-Company-Banner.png" alt="vCluster Labs"></a>
 </p>
 
 <p align="center"><strong>Tenant Clusters for Production Kubernetes and AI Infrastructure</strong></p>
